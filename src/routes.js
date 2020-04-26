@@ -12,6 +12,9 @@ import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
+import Organization from "./views/Organization";
+import Addorganization from "./views/Addorganization";
+import Department from "./views/Department";
 
 export default [
   {
@@ -49,6 +52,21 @@ export default [
     path: "/tables",
     layout: DefaultLayout,
     component: Tables
+  },
+  {
+    path: "/organization",
+    layout: DefaultLayout,
+    component: Organization
+  },
+  {
+    path: "/addorganization",
+    layout: DefaultLayout,
+    component: Addorganization
+  },
+  {
+    path: "/department",
+    layout: DefaultLayout,
+    component: Department
   },
   {
     path: "/blog-posts",

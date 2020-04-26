@@ -7,6 +7,16 @@ export default function() {
       htmlAfter: ""
     },
     {
+      title: "Organization",
+      htmlBefore: '<i class="material-icons">table_chart</i>',
+      to: "/organization",
+    },
+    {
+      title: "User Profile",
+      htmlBefore: '<i class="material-icons">person</i>',
+      to: "/user-profile-lite",
+    },
+    {
       title: "Blog Posts",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
       to: "/blog-posts",
@@ -26,11 +36,7 @@ export default function() {
       htmlBefore: '<i class="material-icons">table_chart</i>',
       to: "/tables",
     },
-    {
-      title: "User Profile",
-      htmlBefore: '<i class="material-icons">person</i>',
-      to: "/user-profile-lite",
-    },
+    
     {
       title: "Errors",
       htmlBefore: '<i class="material-icons">error</i>',

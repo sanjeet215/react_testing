@@ -12,7 +12,7 @@ import {
   Button
 } from "shards-react";
 
-const CompleteFormExample = () => (
+const OrganizationForm = () => (
   <ListGroup flush>
     <ListGroupItem className="p-3">
       <Row>
@@ -73,7 +73,7 @@ const CompleteFormExample = () => (
                 </FormCheckbox>
               </Col>
             </Row>
-            <Button type="submit">submit</Button>
+            <Button type="submit">Add Organization</Button>
           </Form>
         </Col>
       </Row>
@@ -81,4 +81,4 @@ const CompleteFormExample = () => (
   </ListGroup>
 );
 
-export default CompleteFormExample;
+export default OrganizationForm;
